@@ -1,10 +1,14 @@
 {
   "name": "@metidjisidahmed/react-hierarchy-selector",
   "version": "1.0.0",
+  "private": false,
   "description": "An updated React component for selecting items from hierarchies",
   "main": "lib/umd/react-hierarchy-selector.js",
   "cjs": "lib/cjs/index.js",
   "es": "lib/es/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "clean": "rimraf lib",
     "build": "npm-run-all clean build:*",
