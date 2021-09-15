@@ -1,13 +1,13 @@
 {
   "name": "@metidjisidahmed/react-hierarchy-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "An updated React component for selecting items from hierarchies",
   "main": "lib/umd/react-hierarchy-selector.js",
   "cjs": "lib/cjs/index.js",
   "es": "lib/es/index.js",
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "clean": "rimraf lib",
@@ -67,7 +67,7 @@
     "css-loader": "3.4.2",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
-    "eslint": "6.8.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-jsx-a11y": "6.2.3",
